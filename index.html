@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonsai Archive</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
-        body { 
-            background: #fff; color: #333; 
-            font-family: "Courier New", Courier, monospace; 
-            max-width: 800px; margin: 40px auto; padding: 20px;
-        }
-        #content { line-height: 1.5; }
-        a { color: #0000ee; text-decoration: none; }
-        a:hover { text-decoration: underline; background: #ffff00; }
-        h1 { border-bottom: 2px solid #000; padding-bottom: 10px; font-size: 1.2rem; }
-        /* Style for your numbered list */
-        ol { padding-left: 20px; }
-        li { margin-bottom: 8px; }
+        :root { --bg: #ffffff; --text: #1a1a1a; --accent: #777; --border: #eaeaea; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; margin: 0; }
+        #container { max-width: 80%; margin: 60px auto; padding: 0 20px; }
+        header { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+        header a { text-decoration: none; color: #0000FF; font-weight: 600; }
+        .post-link { display: block; margin-bottom: 15px; text-decoration: none; color: var(--text); }
+        .post-link:hover { color: var(--accent); }
+        .date { color: var(--accent); font-size: 0.85rem; margin-right: 15px; font-variant-numeric: tabular-nums; }
+        #content img { max-width: 100%; height: auto; border-radius: 4px; margin: 2rem 0; }
+        #content a { color: var(--text); text-underline-offset: 4px; }
+        footer { margin-top: 80px; font-size: 0.8rem; color: var(--accent); border-top: 1px solid var(--border); padding-top: 20px; }
     </style>
 </head>
 <body>
-    <h1><a href="https://bbonsai.org">PERSONAL</a> ARCHIVE</h1>
+
+<div id="container">
+    <header>
+        <a href="https://bbonsai.org">Bonsai</a> archive
+    </header>
     <div id="content">Loading archive...</div>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         fetch('archive.md?t=' + new Date().getTime())
             .then(response => response.text())
@@ -30,5 +34,6 @@
                 document.getElementById('content').innerHTML = marked.parse(text);
             });
     </script>
+</div>
 </body>
 </html>
