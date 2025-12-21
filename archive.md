@@ -8,12 +8,10 @@
 5. [agner.org](https://www.agner./optimize) - for optimisations
 6. [Bee'js guide to network programming](https://beej.us/guide/bgnet/html/split-wide/)
 
-
 # C/C++ frameworks
 1. [Valgrind](https://valgrind.org/) - memory management and threading bugs detection
 
 # Python frameworks
-
 
 ---
 **Last Updated: 2025-12-21**<br>
