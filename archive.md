@@ -1,6 +1,5 @@
 # General purpose
 
-
 # C/C++ learning resources
 1. [learncpp](https://www.learncpp.com/)
 2. [Beej's guide to C programming](https://beej.us/guide/bgc/html/split-wide/)
@@ -12,11 +11,10 @@
 
 # C/C++ frameworks
 1. [Valgrind](https://valgrind.org/) - memory management and threading bugs detection
-2. 
 
 # Python frameworks
 
 
 ---
-**Last Updated: 2025-12-21**
+**Last Updated: 2025-12-21**<br>
 *Copyright 2025-2035*
