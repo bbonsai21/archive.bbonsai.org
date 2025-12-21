@@ -24,7 +24,7 @@
     <div id="content">Loading archive...</div>
 
     <script>
-        fetch('archive.md')
+        fetch('archive.md?t=' + new Date().getTime())
             .then(response => response.text())
             .then(text => {
                 document.getElementById('content').innerHTML = marked.parse(text);
