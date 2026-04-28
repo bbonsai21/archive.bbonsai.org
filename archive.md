@@ -13,7 +13,7 @@
 
 # Python learning resources
 1. [Beej's guide to Python programming](https://beej.us/guide/bgpython/html/split-wide/index.html)
-2. [Python for Data Analsysi](https://pythoncourses.azurewebsites.net/eBooks/Python%20for%20Data%20Analysis(2).pdf)
+2. [Python for Data Analysis](https://pythoncourses.azurewebsites.net/eBooks/Python%20for%20Data%20Analysis(2).pdf)
 
 # Python tools/frameworks
 1. [uv](https://docs.astral.sh/uv)
