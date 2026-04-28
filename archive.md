@@ -8,11 +8,20 @@
 5. [agner.org](https://www.agner./optimize) - for optimisations
 6. [Bee'js guide to network programming](https://beej.us/guide/bgnet/html/split-wide/)
 
-# C/C++ frameworks
+# C/C++ tools/frameworks
 1. [Valgrind](https://valgrind.org/) - memory management and threading bugs detection
 
-# Python frameworks
+# Python learning resources
+1. [Beej's guide to Python programming](https://beej.us/guide/bgpython/html/split-wide/index.html)
+2. [Python for Data Analsysi](https://pythoncourses.azurewebsites.net/eBooks/Python%20for%20Data%20Analysis(2).pdf)
 
----
-**Last Updated: 2025-12-21**<br>
+# Python tools/frameworks
+1. [uv](https://docs.astral.sh/uv)
+2. [numpy](https://numpy.org/)
+3. [OpenGL](https://pyopengl.sourceforge.net/context/tutorials/index.html)
+4. [GeoPandas](https://geopandas.org/en/stable/)
+
+**Last Updated: 28/04/2026**
+<br>
+<br>
 *Copyright 2025-2035*
